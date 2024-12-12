@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teacher's Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .hero-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+    .about-section {
+      padding: 60px 0;
+      background-color: #f1f1f1;
+    }
+    .services-section {
+      padding: 60px 0;
+    }
+    .testimonials-section {
+      background-color: #f8f9fa;
+      padding: 60px 0;
+    }
+    .contact-section {
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero-section text-center">
+    <div class="container">
+      <h1 class="display-4">Welcome to My Teaching World</h1>
+      <p class="lead">Offering personalized lessons and tutoring services</p>
+      <a href="#services" class="btn btn-primary btn-lg">Explore My Services</a>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="lead">I am an experienced teacher with a passion for helping students achieve their educational goals. With a background in [subject], I offer one-on-one tutoring and tailored lessons to meet your needs.</p>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section text-center">
+    <div class="container">
+      <h2>My Services</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Service 1">
+            <div class="card-body">
+              <h5 class="card-title">Private Tutoring</h5>
+              <p class="card-text">Personalized lessons based on your unique learning style and pace.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Service 2">
+            <div class="card-body">
+              <h5 class="card-title">Group Classes</h5>
+              <p class="card-text">Collaborative learning with a group of peers to foster team growth.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Service 3">
+            <div class="card-body">
+              <h5 class="card-title">Online Courses</h5>
+              <p class="card-text">Learn at your own pace with comprehensive online modules and resources.</p>
+              <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="testimonials-section text-center">
+    <div class="container">
+      <h2>What My Students Say</h2>
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="lead">"The personalized approach really helped me improve my grades!"</p>
+            <footer>- Student 1</footer>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">"A fantastic teacher who makes learning fun and engaging."</p>
+            <footer>- Student 2</footer>
+          </div>
+          <div class="carousel-item">
+            <p class="lead">"I feel more confident in my knowledge thanks to the one-on-one lessons."</p>
+            <footer>- Student 3</footer>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact-section text-center">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p class="lead">Ready to start learning? Reach out today to get started with personalized tutoring!</p>
+      <form>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+          <div class="col-md-6 mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
